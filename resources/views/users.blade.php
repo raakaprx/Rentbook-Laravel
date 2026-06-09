@@ -40,8 +40,8 @@
                             @endif
                         </td>
                         <td>
-                            <a href="/users-detail/{{ $item->slug }}">Detail</a>
-                            <a href="/users-banned/{{ $item->slug }}">Ban User</a>
+                            <a href="/users-detail/{{ $item->slug }}" btn="submit">Detail</a>
+                            <a href="/users-banned/{{ $item->slug }}" btn="submit">Ban User</a>
                         </td>
                     </tr>
                 @endforeach
